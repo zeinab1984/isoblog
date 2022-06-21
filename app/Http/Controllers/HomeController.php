@@ -18,7 +18,7 @@ class HomeController extends Controller
                 'title'=> 'post2'
             ]
             ,
-            [
+            [A
                 'title'=> 'post3'
             ]
         ];
