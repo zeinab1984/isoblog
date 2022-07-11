@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>فروشگاه</title>
+    <title> @yield('page-title') | ایزو بلاگ  </title>
 
     <link rel="stylesheet" href="{{asset('front-assets/css/bootstrap-rtl.min.css')}}">
     <link rel="stylesheet" href="{{asset('front-assets/css/style.css')}}" />
@@ -36,7 +36,11 @@
         </div>
     </nav>
 </header>
+
+
 @yield('content')
+
+
 <footer class="bg-dark text-white text-center p-3 o-font-xs position-fixed w-100">
     <p class="mb-0">.تمامی حقوق مادی و معنوی این وبسایت به <a href="#">فروشگاه فایل</a> تعلق دارد</p>
 </footer>
